@@ -44,7 +44,7 @@ systemctl daemon-reload
 systemctl enable cloudflared-tcp.service
 systemctl start cloudflared-tcp.service
 ```
-参考[ frp 官方文档](https://gofrp.org/zh-cn/docs/)安装配置**frpc**
+参考[frp官方文档](https://gofrp.org/zh-cn/docs/)安装配置**frpc**
 
 frpc 的示例配置文件`frpc.toml`如下，注意这里的`auth.token`需要和服务端的`frps.toml`中相同，域名和服务端口按实际更改
 ```toml
